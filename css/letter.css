@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+#cartaContainer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+#cartaContent {
+    position: relative;
+}
+
+#coracao {
+    width: 50px;
+    height: 50px;
+}
+  
+#linhaPontilhada {
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px dashed black;
+    margin: 0 auto 20px;
+}
+
+#conteudoCarta {
+    font-size: 18px;
+    line-height: 1.5;
+    align-items: center;
+    align-content: center;
+    white-space: pre-line; /* Preserva quebras de linha */
+}

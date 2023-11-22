@@ -1,0 +1,60 @@
+@font-face {
+    font-family: boldins;
+    src: url('../fonts/Boldins.ttf');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'boldins', sans-serif;
+}
+
+button {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid black;
+    width: 60px; /* Defina o tamanho desejado para os botões */
+    font-family: 'boldins', sans-serif;
+}
+
+#container {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#catContainer { 
+    margin-right: 20px;
+}
+
+#cat {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+}
+
+#passcodeSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#passcodeLabel {
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#passcodeButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}

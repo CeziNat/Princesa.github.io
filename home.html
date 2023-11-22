@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princesa</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div id="homeContainer">
+        <div id="profileContainer">
+            <img id="profilePicture" src="img/home/us.jpg" alt="Nat photo">
+            <div id="messageCountdownContainer">
+                <label id="happyLabel">Você me faz o homem mais feliz do mundo há</label>
+                <div id="countdownContainer">
+                    <div id="countdown">
+                        <span id="days">00</span> : 
+                        <span id="hours">00</span> : 
+                        <span id="minutes">00</span> : 
+                        <span id="seconds">00</span>
+                    </div>
+                </div>
+                <div id="homeButtons">
+                    <button onclick="navigateToJourney()">nossa jornada</button>
+                    <button onclick="navigateToLetter()">cartinha</button>
+                    <button onclick="navigateToTickets()">tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <video id="myaudio" controls poster='img/home/taylor.jpg'>
+        <source src="songs/peace.mp3">
+    </video>
+
+    <script src="js/countdown.js"></script>
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+    </script>
+</body>
+</html>
