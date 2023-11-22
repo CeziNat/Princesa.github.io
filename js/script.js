@@ -32,6 +32,6 @@ function checkPasscode() {
         window.location.href = "home.html";
     } else {
         // Redirecionar para outra página em caso de falha na autenticação
-        window.location.href = "pagina-erro.html";
+        alert("Sai daqui talarica, esse site é pra minha princesa!!!!!!");
     }
 }
